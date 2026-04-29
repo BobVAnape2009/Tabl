@@ -24,7 +24,7 @@
 | `name` | TEXT | Имя клиента |
 | `age` | INTEGER | Возраст |
 
-![Таблица пользователей](users_screen.png)
+![Таблица пользователей](Photo/users_screen.png)
 
 ---
 
