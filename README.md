@@ -56,3 +56,9 @@
 
 ```text
 users ──< delivery >── products
+
+📊 Визуализация данных (SQLite Online)
+Ниже представлены скриншоты каждой таблицы, содержащей по 30 записей, полученные с помощью запроса SELECT * FROM название_таблицы.
+
+Таблица Продуктов
+<img width="1448" height="904" alt="product_screen" src="https://github.com/user-attachments/assets/33a78daa-8125-4668-b4dc-dbdaf6e04acd" />
