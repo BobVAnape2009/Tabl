@@ -1,0 +1,14 @@
+SELECT proizvoditel FROM magazin WHERE goden IN (21.04.2026)
+SELECT name FROM users WHERE age IN (16)
+SELECT goden FROM magazin WHERE proizvoditel IN ('Фермер')
+SELECT address FROM delivery WHERE user_id IN (1, 1)
+SELECT status FROM delivery WHERE address IN ('г. Воронеж, ул. Урывского, д. 5')
+SELECT nazvaniye FROM magazin WHERE proizvoditel IN ('Завод')
+SELECT user_id FROM delivery WHERE status IN ('В пути')
+SELECT nazvaniye FROM magazin WHERE proizvoditel BETWEEN 'Завод' AND 'Фермер'
+SELECT address FROM delivery WHERE status BETWEEN 'В пути' AND 'Ожидается'
+SELECT name FROM users WHERE age BETWEEN '15' and '17'
+SELECT user_id FROM delivery WHERE date BETWEEN '03.05.2026' AND '01.05.2026'
+SELECT status FROM delivery WHERE user_id BETWEEN '1, 1' AND '10, 30'
+SELECT proizvoditel FROM magazin WHERE nazvaniye BETWEEN 'Фарш' AND 'Лук'
+SELECT goden FROM magazin WHERE proizvoditel BETWEEN 'Воронежский мясокомбинат' AND 'Воронежский молвест'
